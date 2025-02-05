@@ -7,7 +7,6 @@ import os
 
 def get_Data(city_name):
     api_key = os.environ.get('api_key')
-    #'72decfa09a508b1c0ffeddfe426d5efe'
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}"
 
     try:
